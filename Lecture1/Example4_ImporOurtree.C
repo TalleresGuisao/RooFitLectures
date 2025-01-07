@@ -17,7 +17,7 @@ void Example4_ImporOurtree()
 {
   // I m p o r t   T T r e e   i n t o   a   R o o D a t a S e t
   // -----------------------------------------------------------
-  TFile f("../Clase6/simple.root");
+  TFile f("simple.root");
   TTree* t = (TTree*) f.Get ("tree");
 
   std::cout << "These are the columns Det, En, and Time:" << std::endl;
